@@ -81,7 +81,9 @@ h2 {
 .poem-photo {
     flex: 0 0 350px; /* фото займає рівно 250px праворуч */
 }
-
+.poem {
+    width: 100%;
+}
 .poem-image {
     width: 100%;
     height: auto;
@@ -111,6 +113,7 @@ footer {
     opacity: 0.7;
 
 }
+
 
 
 
