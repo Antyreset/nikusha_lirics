@@ -90,6 +90,7 @@ h2 {
 
 .poe{
      flex:1;
+     min-width: 0;
      font-family: "Bad Script";
      font-size: 22px;
     }
@@ -118,6 +119,7 @@ footer {
     opacity: 0.7;
 
 }
+
 
 
 
