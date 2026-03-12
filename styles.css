@@ -77,7 +77,7 @@ h2 {
     
     min-width: 0;   /* дозволяє тексту розширюватися */
      font-family: "Bad Script";
-     font-size: 18px;
+     font-size: 14px;
 }
 
 .poem-photo {
@@ -116,6 +116,7 @@ footer {
     opacity: 0.7;
 
 }
+
 
 
 
