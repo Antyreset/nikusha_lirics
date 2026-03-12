@@ -86,7 +86,9 @@ h2 {
     width: 800px; /* або будь-яка ширина, яку хочеш */
 }
 .poem {
-    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 .poem-image {
     width: 100%;
@@ -117,6 +119,7 @@ footer {
     opacity: 0.7;
 
 }
+
 
 
 
