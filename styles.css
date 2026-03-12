@@ -84,6 +84,8 @@ h2 {
     width: 800px;       /* або будь-який розмір, який тобі треба */
     height: auto;
     border-radius: 8px;
+    margin-left: auto; /* ось це вирішує твою проблему */
+
 }
 
 .poe{
@@ -116,6 +118,7 @@ footer {
     opacity: 0.7;
 
 }
+
 
 
 
