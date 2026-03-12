@@ -63,9 +63,9 @@ h2 {
 /* Вірші */
 .poet {
     display: flex;
-    width: 100%;
     align-items: flex-start;
     gap: 20px;
+     width: 100%;
 }
 .poet-text {
     flex: 1;        /* текст займає ВСЕ доступне місце */
@@ -114,6 +114,7 @@ footer {
     opacity: 0.7;
 
 }
+
 
 
 
