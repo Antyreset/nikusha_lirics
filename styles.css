@@ -61,39 +61,26 @@ h2 {
 }
 
 /* Вірші */
-.poem {
-   
-    margin-bottom: 40px;
-    padding-bottom: 20px;
-    border-bottom: 1px dashed #d8ccc0;
-}
- .poet {
+.poet {
     display: flex;
-    gap: 20px;          /* відстань між текстом і фото */
     align-items: flex-start;
+    gap: 20px;
 }
 
+.poe {
+    flex: 1;        /* текст займає ВСЕ доступне місце */
+    min-width: 0;   /* дозволяє тексту розширюватися */
+}
 
+.poem-photo {
+    flex: 0 0 250px; /* фото займає рівно 250px праворуч */
 }
-.poem-title {
-    font-size: 1.4em;
-    margin-bottom: 10px;
-    font-style: italic;
-}
+
 .poem-image {
-    width: 800px;       /* або будь-який розмір, який тобі треба */
+    width: 100%;
     height: auto;
-    border-radius: 8px;
-    margin-left: auto; /* ось це вирішує твою проблему */
-
+    display: block;
 }
-
-.poe{
-     flex:1;
-     font-family: "Bad Script";
-     font-size: 22px;
-    }
-
 /* Пісні */
 .song {
     margin-bottom: 40px;
@@ -118,6 +105,7 @@ footer {
     opacity: 0.7;
 
 }
+
 
 
 
